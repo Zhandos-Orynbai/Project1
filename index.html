@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин игр</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Game Store</div>
+        <nav>
+            <a href="#catalog">Каталог</a>
+            <a href="#cart">Корзина</a>
+            <a href="#library">Библиотека</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Кошелек -->
+        <section id="wallet">
+            <p>Ваш баланс: <span id="balance">0 kzt</span></p>
+            <button id="add-money">Пополнить баланс</button>
+        </section>
+
+        <!-- Каталог игр -->
+        <section id="catalog">
+            <h2>Каталог игр</h2>
+            <div class="games"></div>
+        </section>
+
+        <!-- Корзина -->
+        <section id="cart">
+            <h2>Корзина</h2>
+            <div class="cart-content">
+                <p>Корзина пуста</p>
+            </div>
+            <button id="checkout-button">Купить</button>
+        </section>
+
+        <!-- Библиотека -->
+        <section id="library">
+            <h2>Ваша библиотека</h2>
+            <div class="library-content">
+                <p>В вашей библиотеке пока нет игр</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Game Store. Все права защищены.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
